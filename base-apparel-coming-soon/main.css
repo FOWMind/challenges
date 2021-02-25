@@ -1,8 +1,3 @@
-/* Primary */
-/* Neutral */
-/* Gradients */
-/* Fonts */
-/* Paddings */
 * {
   margin: 0;
   padding: 0;
@@ -248,4 +243,4 @@ body {
   .send-button {
     width: 100px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
