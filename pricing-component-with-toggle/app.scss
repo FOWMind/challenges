@@ -12,6 +12,8 @@ $single-price-bg: #fff;
 $light-border: 1px solid rgba($light-grayish-blue, .5);
 $very-light-border: 1px solid rgba($very-light-rayish-blue, .5);
 $price-button-featured-color: hsl(237, 63%, 64%);
+$button-light-border: 1px solid $light-grayish-blue;
+$button-very-light-border: 1px solid $very-light-rayish-blue;
 
 /* Fonts */
 $body-font-family: 'Montserrat', -apple-system, sans-serif;
@@ -202,6 +204,20 @@ body {
         width: 100%;
         margin-top: 2em;
         border-radius: 5px;
+        border: $button-light-border;
+
+        &:hover {
+            background: transparent;
+            color: $price-button-featured-color;
+        }
+    }
+
+    &:nth-of-type(3n+2) .price-button {
+        border: $button-very-light-border;
+    }
+
+    &:nth-of-type(3n+2) .price-button:hover {
+        color: $single-price-bg;
     }
 }
 

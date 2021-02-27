@@ -1,3 +1,7 @@
+/* Primary colors */
+/* Gradients */
+/* Customs */
+/* Fonts */
 * {
   margin: 0;
   padding: 0;
@@ -156,8 +160,20 @@ body::after {
   width: 100%;
   margin-top: 2em;
   border-radius: 5px;
+  border: 1px solid #b3b5c6;
+}
+.single-price .price-button:hover {
+  background: transparent;
+  color: #696fdd;
+}
+.single-price:nth-of-type(3n+2) .price-button {
+  border: 1px solid #f6f6fe;
+}
+.single-price:nth-of-type(3n+2) .price-button:hover {
+  color: #fff;
 }
 
+/* ========== Media queries ========== */
 @media screen and (max-width: 1185px) {
   .toggle-price {
     margin-bottom: 5%;
@@ -197,3 +213,4 @@ body::after {
     margin: 0.5em;
   }
 }
+/* ========== Media queries end ========== *//*# sourceMappingURL=app.css.map */
