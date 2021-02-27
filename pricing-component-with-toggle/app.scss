@@ -32,7 +32,7 @@ body {
     &::before,
     &::after {
         content: '';
-        position: absolute;
+        position: fixed;
         width: 50%;
         opacity: .5;
         z-index: -1;
